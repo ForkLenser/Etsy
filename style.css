@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(5, 38, 38);
+}
+
+#container {
+    background-color: white;
+    border-radius: 12px;
+    width: 30%;
+    height: 700px;
+}
+
+#cal {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.op1 {
+    padding: 34px 12px;
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+}
+
+.op1 input {
+    border-radius: 12px;
+    border: 1px solid chocolate;
+    outline: none;
+    width: 100%;
+    padding: 22px;
+}
+
+.op2 {
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 12px;
+    width: 100%;
+}
+
+.op2 input {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: chocolate;
+    color: white;
+    font-size: 23px;
+    border-radius: 12px;
+    padding: 17px;
+    width: 100%;
+}
+
+.op3 {
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 12px;
+    width: 100%;
+}
+
+.op3 input {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: chocolate;
+    color: white;
+    font-size: 23px;
+    border-radius: 12px;
+    padding: 17px;
+    width: 100%;
+}
+
+.op4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 12px;
+    width: 100%;
+}
+
+.op4 input {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: chocolate;
+    color: white;
+    font-size: 23px;
+    border-radius: 12px;
+    padding: 17px;
+    width: 100%;
+}
